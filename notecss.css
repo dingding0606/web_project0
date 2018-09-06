@@ -1,0 +1,65 @@
+#title
+{
+    font-size:38;
+    color:white;
+    font-weight:bold;
+    text-align:center;
+}
+
+#bottom
+{
+    font-size:18;
+    text-align:center;
+    color:white;
+    margin-left:160px;
+}
+
+ul
+{
+    color:white;
+}
+
+p
+{
+    font-size:20;
+    border-left: 3px solid grey;
+}
+
+body
+{
+    background-image:url("bg.jpg");
+    height:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+li
+{
+    font-size:20px;
+}
+
+.sidenavigation
+{
+    height:100%;
+    width:200px;
+    position:fixed;
+    top: 0;
+    left: 0;
+    background-color:black;
+    overflow-x: hidden;  /* no horizontal scroll */
+}
+
+.sidenavigation a
+{
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
+    color: white;
+}
+
+.sidenavigation a:hover {
+    color: brown;
+}
+
+.main{
+    margin-left: 160px;
+}
